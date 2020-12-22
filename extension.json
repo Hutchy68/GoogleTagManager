@@ -1,0 +1,45 @@
+{
+	"name": "GoogleTagManager",
+	"version": "0.1",
+	"author": [
+    	"Felix Kaiser", 
+    	"Tom Hutchison"
+    ],
+	"url": "https://www.mediawiki.org/wiki/Extension:Google_Tag_Manager",
+	"descriptionmsg": "googletagmanager-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"GoogleTagManager": [
+			"i18n"
+		]
+	},
+	"config": {
+		"GoogleTagManagerIgnoreSysops": {
+			"value": true
+		},
+		"GoogleTagManagerIgnoreBots": {
+			"value": true
+		}
+	},
+	"AutoloadClasses": {
+		"TagManager": "GoogleTagManager.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "TagManager::onBeforePageDisplay"
+	},
+	"AvailableRights": [
+		"noanalytics"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"noanalytics": true
+		},
+    	"bot": {
+			"noanalytics": true
+		}
+	},
+	"manifest_version": 2
+}
