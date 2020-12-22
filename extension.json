@@ -1,10 +1,11 @@
 {
 	"name": "GoogleTagManager",
-	"version": "0.1",
+	"version": "1.0",
 	"author": [
     	"Felix Kaiser", 
     	"Tom Hutchison"
     ],
+	"license-name": "BSD-2-Clause",
 	"url": "https://www.mediawiki.org/wiki/Extension:Google_Tag_Manager",
 	"descriptionmsg": "googletagmanager-desc",
 	"type": "other",
@@ -15,14 +16,6 @@
 		"GoogleTagManager": [
 			"i18n"
 		]
-	},
-	"config": {
-		"GoogleTagManagerIgnoreSysops": {
-			"value": true
-		},
-		"GoogleTagManagerIgnoreBots": {
-			"value": true
-		}
 	},
 	"AutoloadClasses": {
 		"TagManager": "GoogleTagManager.php"
