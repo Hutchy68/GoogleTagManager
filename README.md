@@ -22,9 +22,9 @@ Once the extension is in your `/extension` directory from either method above:
 
 Add to your `LocalSetting.php` file and set you Google Tag Manager ID for your Tag
 ```
-`wfLoadExtension( 'GoogleTagManager' );`
+wfLoadExtension( 'GoogleTagManager' );
 // Replace GTM-XXXXXX with your Google Tag Manager container ID
-`$wgGoogleTagManagerContainerID='GTM-XXXXXX';`
+$wgGoogleTagManagerContainerID='GTM-XXXXXX';
 ```
 
 ### Alternative Setting
