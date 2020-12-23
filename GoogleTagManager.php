@@ -5,14 +5,6 @@
 $wgGoogleTagManagerContainerID = '';
 $wgGoogleTagManagerData = '';
 
-/**
- * @link https://www.mediawiki.org/wiki/Manual:Hooks/SkinAfterBottomScripts
- * This is the description for the class.
- * @param $skin  Skin object
- * @param &$text: bottomScripts Text. Append to $text to add additional text/scripts after the stock bottom scripts.
- * @return bool
- */
-
 class TagManager {
 
 	/**
