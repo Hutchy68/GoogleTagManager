@@ -1,5 +1,7 @@
 # MediaWiki Google Tag Manager Extension
 
+[![CircleCI](https://circleci.com/gh/Hutchy68/GoogleTagManager.svg?style=shield)](https://circleci.com/gh/Hutchy68/GoogleTagManager)
+
 The GoogleTagManager extension integrates a [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) container, e.g. containing either a Universal Analytics and Google Analytics 4 tracking code, into each mediawiki page.
 
 ## Download
